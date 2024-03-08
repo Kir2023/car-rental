@@ -1,4 +1,4 @@
-import{u as i,b as a,j as e,n as r}from"./index-DIYyiApM.js";import{j as s,e as p,f as d}from"./CarsList.styled-BqijsTJI.js";const x=i.section`
+import{u as i,b as a,j as e,n as s}from"./index-BZw32bi5.js";import{j as r,e as p,f as d}from"./CarsList.styled-S8TMclGz.js";const x=i.section`
   margin: 0 auto;
   width: 100%;
   background-image: ${t=>t.$url||"none"};
@@ -41,4 +41,4 @@ import{u as i,b as a,j as e,n as r}from"./index-DIYyiApM.js";import{j as s,e as 
   @media screen and (min-width: 1440px) {
     font-size: 40px;
   }
-`,h=()=>{const t=a(s);return e.jsx(x,{children:e.jsx(m,{$top:"50px",children:(t==null?void 0:t.length)>0?e.jsx(p,{children:t==null?void 0:t.map((n,o)=>e.jsx(d,{car:n,index:o},n.id))}):e.jsx(c,{children:e.jsxs("p",{children:["Please select your favorite cars in the"," ",e.jsx(r,{to:"/catalog",children:"Сatalog"}),"."]})})})})};export{h as default};
+`,h=()=>{const t=a(r);return e.jsx(x,{children:e.jsx(m,{$top:"50px",children:(t==null?void 0:t.length)>0?e.jsx(p,{children:t==null?void 0:t.map((n,o)=>e.jsx(d,{car:n,index:o},n.id))}):e.jsx(c,{children:e.jsxs("p",{children:["Please select your favorite cars in the"," ",e.jsx(s,{to:"/catalog",children:"Сatalog"}),"."]})})})})};export{h as default};
