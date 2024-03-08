@@ -1,13 +1,13 @@
-import { HeaderWrapper, NavItem, NavList } from "./Header.styled";
+import { HeaderWrapper, NavWrapper, StyledNavLink } from "./Header.styled";
 
 const Header = () => {
   return (
     <HeaderWrapper>
-      <NavList>
-        <NavItem>Home</NavItem>
-        <NavItem>Catalog</NavItem>
-        <NavItem>Favorite</NavItem>
-      </NavList>
+      <NavWrapper>
+        <StyledNavLink to="/home">Home</StyledNavLink>
+        <StyledNavLink to="/catalog">Catalog</StyledNavLink>
+        <StyledNavLink to="/favorites">Favorites</StyledNavLink>
+      </NavWrapper>
     </HeaderWrapper>
   );
 };
