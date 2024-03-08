@@ -19,7 +19,6 @@ import { filterSet } from "../../redux/filter/filterSlice";
 import { makeComaInMileage } from "../../service/serviceFunc";
 import { Report } from "notiflix/build/notiflix-report-aio";
 import { CloseBtnWrapper } from "../../components/ModalWindowWrap/ModalWindowWrap.styled";
-import sprite from "../../assets/sprite.svg";
 
 export const options = {
   svgSize: "42px",
@@ -173,11 +172,13 @@ export const Filters = () => {
           </FalseInput>
           {mileageFrom.length > 0 && (
             <CloseBtnWrapper
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
               $top="38px"
               $right="6px"
               onClick={() => onClickResetMileage("mileageFrom")}
             >
-              <use href={`${sprite}#icon-x`} />
+              <path d="M24 8 8 24M8 8l16 16" />
             </CloseBtnWrapper>
           )}
         </Label>
@@ -201,11 +202,13 @@ export const Filters = () => {
           </FalseInput>
           {mileageTo.length > 0 && (
             <CloseBtnWrapper
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
               $top="20px"
               $right="14px"
               onClick={() => onClickResetMileage("mileageTo")}
             >
-              <use href={`${sprite}#icon-x`} />
+              <path d="M24 8 8 24M8 8l16 16" />
             </CloseBtnWrapper>
           )}
         </WrapSecondInput>

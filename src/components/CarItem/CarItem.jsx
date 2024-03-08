@@ -14,7 +14,6 @@ import {
   TitleH3,
   TitleWrap,
 } from "./CarItem.styled";
-import sprite from "../../assets/sprite.svg";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -82,11 +81,13 @@ export const CarItem = ({ car }) => {
             alt={make}
           />
           <Heart
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
             onClick={onClickHeart}
             fill={isCarFavorite ? "#3470FF" : "none"}
             stroke={isCarFavorite ? "#3470FF" : "#FFF"}
           >
-            <use href={`${sprite}#icon-heart`} />
+            <path d="M27.787 6.147a7.345 7.345 0 0 0-5.187-2.15 7.33 7.33 0 0 0-5.187 2.15L16 7.56l-1.413-1.413a7.333 7.333 0 0 0-10.374 0 7.333 7.333 0 0 0 0 10.374L16 28.308l11.787-11.787a7.345 7.345 0 0 0 2.15-5.187 7.33 7.33 0 0 0-2.15-5.187z" />
           </Heart>
         </ImgWrap>
         <DescriptionWrap>

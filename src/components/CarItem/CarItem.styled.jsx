@@ -46,6 +46,9 @@ export const Heart = styled.svg`
   display: inline-block;
   width: 18px;
   height: 18px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.667px;
 `;
 
 export const DescriptionWrap = styled.div`
