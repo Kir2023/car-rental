@@ -43,6 +43,8 @@ export const Heart = styled.svg`
   position: absolute;
   top: 14px;
   right: 14px;
+  fill: ${(props) => props.fill || "none"};
+  stroke: ${(props) => props.stroke || "var(--color-text-button-and-back)"};
   display: inline-block;
   width: 18px;
   height: 18px;
