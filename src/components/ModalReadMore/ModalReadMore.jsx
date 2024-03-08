@@ -89,13 +89,13 @@ export const ModalReadMore = ({ car }) => {
             <ModalTitleH4>Accessories and functionalities:</ModalTitleH4>
             <DescriptListWrap>
               <DescriptList>
-                {accessories?.map((item) => (
-                  <DescriptItem>{item}</DescriptItem>
+                {accessories?.map((item, index) => (
+                  <DescriptItem key={index}>{item}</DescriptItem>
                 ))}
               </DescriptList>
               <DescriptList>
-                {functionalities?.map((item) => (
-                  <DescriptItem>{item}</DescriptItem>
+                {functionalities?.map((item, index) => (
+                  <DescriptItem key={index}>{item}</DescriptItem>
                 ))}
               </DescriptList>
             </DescriptListWrap>

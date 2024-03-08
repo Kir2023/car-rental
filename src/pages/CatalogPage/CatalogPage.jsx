@@ -6,7 +6,7 @@ const CatalogPage = () => {
   return (
     <>
       <Section>
-        <Container $top="50px">
+        <Container>
           <Filters />
         </Container>
       </Section>

@@ -1,11 +1,11 @@
 import { CarsListStyle } from "../../components/CarsList/CarsList.styled";
-import { Container, EmptyPage, Section } from "./FavoritePage.styled";
+import { Container, EmptyPage, Section } from "./FavoritesPage.styled";
 import { CarItem } from "../../components/CarItem/CarItem";
 import { useSelector } from "react-redux";
 import { selectFavoriteCars } from "../../redux/selectors";
 import { Link } from "react-router-dom";
 
-const FavoritePage = () => {
+const FavoritesPage = () => {
   const favoriteCars = useSelector(selectFavoriteCars);
 
   return (
@@ -30,4 +30,4 @@ const FavoritePage = () => {
   );
 };
 
-export default FavoritePage;
+export default FavoritesPage;

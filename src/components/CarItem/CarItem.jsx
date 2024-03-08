@@ -20,7 +20,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   addFavoriteCar,
   deleteFavoriteCar,
-} from "../../redux/favoriteCarsSlice/favoriteCarsSlice";
+} from "../../redux/favoriteCarsSlice.js/favoriteCarsSlice";
 import { selectFavoriteCars } from "../../redux/selectors";
 import { ModalWindowWrap } from "../../components/ModalWindowWrap/ModalWindowWrap";
 import { ModalReadMore } from "../../components/ModalReadMore/ModalReadMore";

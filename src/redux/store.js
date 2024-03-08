@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { carsReducer } from "./cars/carsSlice";
-import { favoriteCarsPersistReducer } from "./favoriteCarsSlice/favoriteCarsSlice";
+import { favoriteCarsPersistReducer } from "./favoriteCarsSlice.js/favoriteCarsSlice";
 import {
   persistStore,
   FLUSH,
