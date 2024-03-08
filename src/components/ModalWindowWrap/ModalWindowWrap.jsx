@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
-import sprite from "../../assets/sprite.svg";
 import {
   ModalContainer,
   CloseBtnWrapper,
@@ -37,8 +36,12 @@ export const ModalWindowWrap = ({ onClick, children }) => {
     <ModalPortal>
       <BackdropModal onClick={onClickBackDrop}>
         <ModalContainer>
-          <CloseBtnWrapper onClick={onClickClose}>
-            <use href={`${sprite}#icon-x`} />
+          <CloseBtnWrapper
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+            onClick={onClickClose}
+          >
+            <path d="M24 8 8 24M8 8l16 16" />
           </CloseBtnWrapper>
           {children}
         </ModalContainer>

@@ -26,7 +26,10 @@ export const CloseBtnWrapper = styled.svg`
   width: 24px;
   height: 24px;
   stroke: #121417;
-  top: ${(props) => props.$top || "16px"};
-  right: ${(props) => props.$right || "16px"};
+  top: 16px;
+  right: 16px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.4px;
   cursor: pointer;
 `;
