@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <NavWrapper>
-        <StyledNavLink to="/">Home</StyledNavLink>
+        <StyledNavLink to="/home">Home</StyledNavLink>
         <StyledNavLink to="/catalog">Catalog</StyledNavLink>
         <StyledNavLink to="/favorites">Favorites</StyledNavLink>
       </NavWrapper>
