@@ -1,4 +1,4 @@
-import{u as i,b as a,j as e,n as s}from"./index-BoJZ0wca.js";import{i as r,e as p,f as d}from"./CarsList.styled-C7cUHJaz.js";const x=i.section`
+import{u as i,b as a,j as e,n as s}from"./index-D_2K6hqb.js";import{i as r,e as p,f as d}from"./CarsList.styled-yrxLeb2j.js";const x=i.section`
   margin: 0 auto;
   width: 100%;
   background-image: ${t=>t.$url||"none"};
