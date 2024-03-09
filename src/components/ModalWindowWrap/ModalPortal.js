@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { createPortal } from "react-dom";
 
 export const ModalPortal = ({ children }) => {

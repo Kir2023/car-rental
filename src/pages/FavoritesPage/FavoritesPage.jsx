@@ -1,9 +1,16 @@
+/* eslint-disable react/no-unescaped-entities */
 import { CarsListStyle } from "../../components/CarsList/CarsList.styled";
-import { Container, EmptyPage, Section } from "./FavoritesPage.styled";
+import {
+  Container,
+  EmptyPage,
+  EmptyPageImg,
+  EmptyPageText,
+  Section,
+} from "./FavoritesPage.styled";
 import { CarItem } from "../../components/CarItem/CarItem";
 import { useSelector } from "react-redux";
 import { selectFavoriteCars } from "../../redux/selectors";
-import { Link } from "react-router-dom";
+import EmptyImg from "../../assets/img-favorite-empty.jpg";
 
 const FavoritesPage = () => {
   const favoriteCars = useSelector(selectFavoriteCars);
@@ -19,10 +26,11 @@ const FavoritesPage = () => {
           </CarsListStyle>
         ) : (
           <EmptyPage>
-            <p>
-              Please select your favorite cars in the{" "}
-              <Link to="/catalog">Сatalog</Link>.
-            </p>
+            <EmptyPageImg src={EmptyImg} />
+            <EmptyPageText>
+              You haven't added any cars to favorites. Please select a car from
+              the catalog.
+            </EmptyPageText>
           </EmptyPage>
         )}
       </Container>
