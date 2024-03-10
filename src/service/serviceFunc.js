@@ -1,5 +1,3 @@
-// Make from 4 and more 4-digits number (mileage) string with Coma 1111 -> '1,111'
-
 export const makeComaInMileage = (mileage) => {
   const lengthMileage = mileage.toString().length;
   if (lengthMileage <= 3) {
@@ -10,14 +8,10 @@ export const makeComaInMileage = (mileage) => {
   return mileageStringArr.join("");
 };
 
-// Make number from string with '$' (rentalPrice) '$30' -> 30
-
 export const makeNumberFromPrice = (stringPrise) => {
   const price = parseInt(stringPrise.replace("$", ""));
   return price;
 };
-
-// Make array of unique brands from allCars array
 
 export const makeUniqueBrandsState = (payload) => {
   const brands = payload?.map((car) => car.make);

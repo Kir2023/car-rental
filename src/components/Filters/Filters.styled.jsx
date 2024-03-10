@@ -27,7 +27,7 @@ export const InputWrap = styled.div`
 export const Input = styled.input`
   width: 160px;
   height: 48px;
-  padding: ${(props) => props.$padding || "14px 14px 14px 70px"};
+  padding: 14px 14px 14px 70px;
   margin-top: 8px;
   border-radius: ${(props) => props.$radius || "14px"};
   border: none;

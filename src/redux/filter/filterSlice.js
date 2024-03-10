@@ -12,7 +12,7 @@ export const filterSlice = createSlice({
     filterSet(state, { payload }) {
       state.filter = payload;
     },
-    filterDelete(state, { payload }) {
+    filterDelete(state) {
       state.filter = null;
     },
     filterCarsSet(state, { payload }) {

@@ -193,7 +193,6 @@ export const Filters = () => {
             min="1"
             max="99999"
             $radius="0px 14px 14px 0px"
-            $padding="14px 14px 14px 48px"
           />
           <span></span>
           <FalseInput>
