@@ -1,4 +1,4 @@
-import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}from"./index-7geeJ7nn.js";const N=t.li`
+import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}from"./index-BKk350fc.js";const N=t.li`
   display: flex;
   width: 100%;
   width: 274px;
@@ -226,7 +226,7 @@ import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}fro
   column-gap: 29px;
   margin-bottom: 100px;
 `,ye=t.p`
-  color: #3470ff;
+  zcolor: #3470ff;
   font-size: 16px;
   font-weight: 500;
   text-decoration-line: underline;

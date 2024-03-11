@@ -1,4 +1,4 @@
-import{u as s,b as n,j as t}from"./index-7geeJ7nn.js";import{i as o,e as r,f as c}from"./CarsList.styled-DTyplb0H.js";const m=s.section`
+import{u as s,b as n,j as t}from"./index-BKk350fc.js";import{i as o,e as r,f as c}from"./CarsList.styled-CUPIxcBi.js";const m=s.section`
   margin: 0 auto;
   width: 100%;
 `,l=s.div`
