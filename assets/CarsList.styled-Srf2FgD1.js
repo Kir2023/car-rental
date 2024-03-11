@@ -1,4 +1,4 @@
-import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}from"./index-BKk350fc.js";const N=t.li`
+import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}from"./index-BxWGUIeg.js";const N=t.li`
   display: flex;
   width: 100%;
   width: 274px;
@@ -44,7 +44,7 @@ import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}fro
   max-width: 100%;
   flex-direction: column;
   gap: 8px;
-`,Z=t.div`
+`,$=t.div`
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -52,7 +52,7 @@ import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}fro
   font-size: 16px;
   font-weight: 500;
   align-items: center;
-`,$=t.h3`
+`,Z=t.h3`
   font-size: inherit;
   font-weight: inherit;
 `,m=t.span`
@@ -202,7 +202,7 @@ import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}fro
   border-radius: 35px;
   background: #f9f9f9;
 `,le=({car:i})=>{const{id:n,make:o,model:r,year:c,img:l,rentalPrice:L,mileage:w,type:F,functionalities:g,address:f,fuelConsumption:z,engineSize:u,description:y,accessories:p,rentalConditions:b}=i,v=f==null?void 0:f.split(", ").slice(-2),x=b.split(`
-`),C=a=>a.split(": ");return e.jsxs(ee,{children:[e.jsxs(te,{children:[e.jsx(ie,{children:e.jsx(se,{src:l||"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfcwPgLjMU-2yndNFijsBcYym0xgW8CZoy59h7iGThL5Ii5b-Gt3g69LOn5pM3vEygkM&usqp=CAU",alt:o})}),e.jsxs(ne,{children:[e.jsxs(E,{children:[e.jsxs(oe,{children:[o,e.jsxs(m,{children:[" ",r]}),", ",c]}),e.jsxs(M,{children:[e.jsxs(h,{children:[e.jsx(s,{children:v[0]}),e.jsx(s,{children:v[1]}),e.jsxs(s,{children:["Id: ",n]}),e.jsxs(s,{children:["Year: ",c]}),e.jsxs(s,{children:["Type: ",F]})]}),e.jsxs(h,{children:[e.jsxs(s,{children:["Fuel Consumption: ",z]}),e.jsxs(s,{children:["Engine Size: ",u]})]})]}),e.jsx(re,{children:y})]}),e.jsxs(E,{children:[e.jsx(I,{children:"Accessories and functionalities:"}),e.jsxs(M,{children:[e.jsx(h,{children:p==null?void 0:p.map((a,d)=>e.jsx(s,{children:a},d))}),e.jsx(h,{children:g==null?void 0:g.map((a,d)=>e.jsx(s,{children:a},d))})]})]}),e.jsxs(E,{children:[e.jsx(I,{children:"Rental Conditions:"}),e.jsxs(M,{$gap:"8px",children:[e.jsxs(W,{children:[e.jsxs(j,{children:[C(x[0])[0],":"," ",e.jsx(m,{children:C(x[0])[1]})]}),e.jsx(j,{children:x[1]})]}),e.jsxs(W,{children:[e.jsx(j,{children:x[2]}),e.jsxs(j,{children:["Mileage: ",e.jsx(m,{children:S(w)})]}),e.jsxs(j,{children:["Price: ",e.jsxs(m,{children:[T(L),"$"]})]})]})]})]})]})]}),e.jsx(B,{width:"168px",onClick:()=>window.location.href="tel:+380730000000",children:"Rental car"})]},n)},fe=({car:i})=>{const n=A(),o=D(K),{id:r,make:c,model:l,year:L,img:w,rentalPrice:F,rentalCompany:g,type:f,functionalities:z,address:u}=i,y=u==null?void 0:u.split(", ").slice(-2),[p,b]=k.useState(!1),[v,x]=k.useState(!1);k.useEffect(()=>{o!=null&&o.some(d=>d.id===r)?b(!0):b(!1)},[o,r]);const C=()=>{n(p?G(r):H(i))},a=()=>{x(d=>!d)};return e.jsxs(N,{children:[v&&e.jsx(_,{onClick:a,children:e.jsx(le,{car:i},r)}),e.jsxs(R,{children:[e.jsxs(q,{children:[e.jsx(U,{src:w||"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfcwPgLjMU-2yndNFijsBcYym0xgW8CZoy59h7iGThL5Ii5b-Gt3g69LOn5pM3vEygkM&usqp=CAU",alt:c}),e.jsx(O,{viewBox:"0 0 32 32",xmlns:"http://www.w3.org/2000/svg",onClick:C,fill:p?"#3470FF":"none",stroke:p?"#3470FF":"#FFF",children:e.jsx("path",{d:"M27.787 6.147a7.345 7.345 0 0 0-5.187-2.15 7.33 7.33 0 0 0-5.187 2.15L16 7.56l-1.413-1.413a7.333 7.333 0 0 0-10.374 0 7.333 7.333 0 0 0 0 10.374L16 28.308l11.787-11.787a7.345 7.345 0 0 0 2.15-5.187 7.33 7.33 0 0 0-2.15-5.187z"})})]}),e.jsxs(Y,{children:[e.jsxs(Z,{children:[e.jsxs($,{children:[c,e.jsxs(m,{children:[" ",l]}),", ",L]}),e.jsx("p",{children:F})]}),e.jsxs(M,{children:[e.jsxs(h,{children:[e.jsx(s,{children:y[0]}),e.jsx(s,{children:y[1]}),e.jsx(s,{children:g}),e.jsx(s,{children:"Premium"})]}),e.jsxs(h,{children:[e.jsx(s,{children:f}),e.jsx(s,{children:c}),e.jsx(s,{children:r}),e.jsx(s,{children:z[0]})]})]})]})]}),e.jsx(B,{onClick:a,children:"Learn more"})]},r)},ue=t.section`
+`),C=a=>a.split(": ");return e.jsxs(ee,{children:[e.jsxs(te,{children:[e.jsx(ie,{children:e.jsx(se,{src:l||"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfcwPgLjMU-2yndNFijsBcYym0xgW8CZoy59h7iGThL5Ii5b-Gt3g69LOn5pM3vEygkM&usqp=CAU",alt:o})}),e.jsxs(ne,{children:[e.jsxs(E,{children:[e.jsxs(oe,{children:[o,e.jsxs(m,{children:[" ",r]}),", ",c]}),e.jsxs(M,{children:[e.jsxs(h,{children:[e.jsx(s,{children:v[0]}),e.jsx(s,{children:v[1]}),e.jsxs(s,{children:["Id: ",n]}),e.jsxs(s,{children:["Year: ",c]}),e.jsxs(s,{children:["Type: ",F]})]}),e.jsxs(h,{children:[e.jsxs(s,{children:["Fuel Consumption: ",z]}),e.jsxs(s,{children:["Engine Size: ",u]})]})]}),e.jsx(re,{children:y})]}),e.jsxs(E,{children:[e.jsx(I,{children:"Accessories and functionalities:"}),e.jsxs(M,{children:[e.jsx(h,{children:p==null?void 0:p.map((a,d)=>e.jsx(s,{children:a},d))}),e.jsx(h,{children:g==null?void 0:g.map((a,d)=>e.jsx(s,{children:a},d))})]})]}),e.jsxs(E,{children:[e.jsx(I,{children:"Rental Conditions:"}),e.jsxs(M,{$gap:"8px",children:[e.jsxs(W,{children:[e.jsxs(j,{children:[C(x[0])[0],":"," ",e.jsx(m,{children:C(x[0])[1]})]}),e.jsx(j,{children:x[1]})]}),e.jsxs(W,{children:[e.jsx(j,{children:x[2]}),e.jsxs(j,{children:["Mileage: ",e.jsx(m,{children:S(w)})]}),e.jsxs(j,{children:["Price: ",e.jsxs(m,{children:[T(L),"$"]})]})]})]})]})]})]}),e.jsx(B,{width:"168px",onClick:()=>window.location.href="tel:+380730000000",children:"Rental car"})]},n)},fe=({car:i})=>{const n=A(),o=D(K),{id:r,make:c,model:l,year:L,img:w,rentalPrice:F,rentalCompany:g,type:f,functionalities:z,address:u}=i,y=u==null?void 0:u.split(", ").slice(-2),[p,b]=k.useState(!1),[v,x]=k.useState(!1);k.useEffect(()=>{o!=null&&o.some(d=>d.id===r)?b(!0):b(!1)},[o,r]);const C=()=>{n(p?G(r):H(i))},a=()=>{x(d=>!d)};return e.jsxs(N,{children:[v&&e.jsx(_,{onClick:a,children:e.jsx(le,{car:i},r)}),e.jsxs(R,{children:[e.jsxs(q,{children:[e.jsx(U,{src:w||"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfcwPgLjMU-2yndNFijsBcYym0xgW8CZoy59h7iGThL5Ii5b-Gt3g69LOn5pM3vEygkM&usqp=CAU",alt:c}),e.jsx(O,{viewBox:"0 0 32 32",xmlns:"http://www.w3.org/2000/svg",onClick:C,fill:p?"#3470FF":"none",stroke:p?"#3470FF":"#FFF",children:e.jsx("path",{d:"M27.787 6.147a7.345 7.345 0 0 0-5.187-2.15 7.33 7.33 0 0 0-5.187 2.15L16 7.56l-1.413-1.413a7.333 7.333 0 0 0-10.374 0 7.333 7.333 0 0 0 0 10.374L16 28.308l11.787-11.787a7.345 7.345 0 0 0 2.15-5.187 7.33 7.33 0 0 0-2.15-5.187z"})})]}),e.jsxs(Y,{children:[e.jsxs($,{children:[e.jsxs(Z,{children:[c,e.jsxs(m,{children:[" ",l]}),", ",L]}),e.jsx("p",{children:F})]}),e.jsxs(M,{children:[e.jsxs(h,{children:[e.jsx(s,{children:y[0]}),e.jsx(s,{children:y[1]}),e.jsx(s,{children:g}),e.jsx(s,{children:"Premium"})]}),e.jsxs(h,{children:[e.jsx(s,{children:f}),e.jsx(s,{children:c}),e.jsx(s,{children:r}),e.jsx(s,{children:z[0]})]})]})]})]}),e.jsx(B,{onClick:a,children:"Learn more"})]},r)},ue=t.section`
   margin: 0 auto;
   width: 100%;
 `,je=t.div`
@@ -226,7 +226,8 @@ import{u as t,e as P,r as k,j as e,l as S,m as T,a as A,b as D,n as G,o as H}fro
   column-gap: 29px;
   margin-bottom: 100px;
 `,ye=t.p`
-  zcolor: #3470ff;
+  display: ${i=>i.display||"block"};
+  color: #3470ff;
   font-size: 16px;
   font-weight: 500;
   text-decoration-line: underline;

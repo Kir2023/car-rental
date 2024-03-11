@@ -1,4 +1,4 @@
-import{u as a,j as e}from"./index-BKk350fc.js";const t="/car-rental/assets/bg-homepage-DIzSOak7.jpeg",o=a.div`
+import{u as a,j as e}from"./index-BxWGUIeg.js";const t="/car-rental/assets/bg-homepage-DIzSOak7.jpeg",o=a.div`
   width: 100%;
   height: 100vh;
   background-image: url(${t});
