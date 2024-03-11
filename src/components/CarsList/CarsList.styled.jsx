@@ -32,7 +32,7 @@ export const CarsListStyle = styled.ul`
 `;
 
 export const LoadMore = styled.p`
-  color: #3470ff;
+  zcolor: #3470ff;
   font-size: 16px;
   font-weight: 500;
   text-decoration-line: underline;
