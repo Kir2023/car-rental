@@ -32,7 +32,8 @@ export const CarsListStyle = styled.ul`
 `;
 
 export const LoadMore = styled.p`
-  zcolor: #3470ff;
+  display: ${(props) => props.display || "block"};
+  color: #3470ff;
   font-size: 16px;
   font-weight: 500;
   text-decoration-line: underline;
